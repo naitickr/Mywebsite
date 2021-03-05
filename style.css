@@ -89,16 +89,19 @@ margin-top: 0px;
 .links{
 padding-top: 5px;
 padding-bottom: 5px;
-padding-left: 9px;
-    padding-right: 9px;
+padding-left: 10px;
+    padding-right: 25px;
 font-family: fantasy;
 font-size: 30px;
     color: blueviolet;
 float: up;
+display: inline;
 }
 
 .links:hover {
     background-color:lightcoral;
+font-size: 30px;
+text-decoration: underline;
 } 
 html {
 scroll-behavior: smooth;
@@ -110,5 +113,19 @@ a {
 text-decoration: none;
 color: #04e034;
 text-shadow: 2px 2px gainsboro;
+} 
+#writing {
+text-shadow: none;
+text-decoration:underline; 
+} 
+#contact {
+background:firebrick;
+} 
+.contact_1 a{ 
+color: #f53b73;
+text-shadow: none; 
+}
+.contact_1 h3{
+display: inline;
 }
 
